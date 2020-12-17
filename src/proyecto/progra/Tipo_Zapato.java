@@ -15,7 +15,11 @@ public class Tipo_Zapato {
     private String marca; 
     int var1; 
     
-    public void Tipo_Zapato(){
+    public Tipo_Zapato()
+    {}
+    
+    public void Tipo_Zapato()
+    {
         // Se inicializa las variables.
         cantidad = 0;
         deportivo = 10203; // lineas 19, 20, 21 son los codigos de cada estilo de zapato para evaluar al final. 

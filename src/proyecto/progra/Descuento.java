@@ -93,9 +93,6 @@ public class Descuento {
        int opcion;
    opcion= Integer.parseInt(JOptionPane.showInputDialog  ( "eliga un numero entre 0 y 10"));
                                                         
-                                                      
-   
-   
    
    if (opcion>=5){
         JOptionPane.showMessageDialog(null,"*****GANASTE UN CUPON EN TU SIGUIENTE COMPRA********");
